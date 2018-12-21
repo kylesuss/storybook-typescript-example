@@ -1,0 +1,40 @@
+{
+  "name": "storybook-typescript-example",
+  "version": "0.0.0",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "styled-components": "^4.1.1",
+    "tslib": "^1.9.3"
+  },
+  "scripts": {
+    "start": "start-storybook -p 9001 -c ./config/storybook"
+  },
+  "devDependencies": {
+    "@storybook/addon-actions": "^4.0.12",
+    "@storybook/addon-info": "^4.0.12",
+    "@storybook/addon-knobs": "^4.0.12",
+    "@storybook/addon-links": "^4.0.12",
+    "@storybook/addon-options": "^4.0.12",
+    "@storybook/addons": "^4.0.12",
+    "@storybook/react": "^4.0.12",
+    "@types/storybook__addon-actions": "^3.4.1",
+    "@types/storybook__addon-info": "^3.4.2",
+    "@types/storybook__addon-knobs": "^3.4.1",
+    "@types/storybook__addon-options": "^4.0.0",
+    "@types/storybook__react": "^4.0.0",
+    "@types/styled-components": "^4.1.1",
+    "cache-loader": "^1.2.5",
+    "fork-ts-checker-webpack-plugin": "^0.5.0",
+    "normalize.css": "^8.0.1",
+    "react-docgen-typescript-webpack-plugin": "^1.1.0",
+    "thread-loader": "^1.2.0",
+    "ts-loader": "^5.3.1",
+    "tslint": "^5.11.0",
+    "tslint-react": "^3.6.0",
+    "tslint-config-prettier": "^1.17.0",
+    "typescript": "^3.2.2",
+    "typescript-styled-plugin": "^0.13.0"
+  }
+}
